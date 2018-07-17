@@ -1,4 +1,8 @@
 module Memorable
+  def initialize
+    self.class.all 
+  end 
+  
   def reset_all
     self.all.clear
   end
