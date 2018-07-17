@@ -1,6 +1,6 @@
 module Memorable
   def initialize
-    self.class.all 
+    self.class.all << self
   end 
   
   def reset_all
